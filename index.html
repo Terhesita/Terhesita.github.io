@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es" style="background-color: #F1F2F3">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Title>𝑻𝒆𝒓𝒆𝒔𝒊𝒕𝒂 𝑶𝒏𝒐𝒇𝒓𝒆</Title>
+        <link rel="icon" href="assets/img/icono.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    
+    </head>
+    <body>
+        <!--Encanezado-->
+        <header class="hero">
+            <!--contenedor (dimension de todo lo que tendria)-->
+            <div class="container">
+               <!--Menu de navegacion-->
+                <nav class="nav">
+                    <!--3 elems. parte superior-->
+                    <!--El primero esta en seleccion-->
+                    <a href="assets/doc/cv.pdf" class="nav__items nav__items--cta" target="_blank">CV</a>
+                    <a id="enlace-acercade" href="#" class="nav__items">Acerca de mi</a>
+                    <a id="enlace-proyectos" href="#" class="nav__items">Proyectos</a>
+                </nav>
+                <!--Seccion que va a tener un contenedor-->
+                <section class="hero__container">
+                    <div class="hero__containers">
+                        <h1 class="hero__title">Teresita Onofre, Conóceme</h1>
+                        <h2 class="hero__subtitle">Cada día obteniendo nuevos conocimientos...</h2>
+                        <a href="https://api.whatsapp.com/send?phone=528712619382&Comúnicate conmigo" target="_blank" class="hero__cta">Contactame aquí</a>
+                    </div>
+                </section>
+            </div>
+            <!--onda detras del header-->
+            <div class="hero__wave" style=" overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" 
+                style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 351.74,-49.98 500.00,49.98 
+                L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #F1F2F3;"></path></svg></div>
+        </header>
+
+        <!--Contenido de la pagina-->
+        <main>
+            <section class="presentation container" id="acercademi">
+                <img src="assets/img/teresita.jpg" class="presentation__picture">
+                <div>
+                <h2 class="subtitle">Hola soy Teresita Onofre</h2>
+                <p class="presentation__copy">
+                    Actualmente estoy por cursar mi último semestre en la carrera de ing. 
+                    Sistemas Computacionales donde a lo largo del tiempo desarrolle 
+                    distintas habilidades pero las cuales acapararon más mi atención son 
+                    el desarrollo móvil (Android / IOS) y desarrollo web, por el interés a 
+                    todo lo referente con el Front End, por eso mismo es que trato de estar 
+                    al día con los temas relacionados en UI / UX.
+                   
+                </p>
+               </div> 
+            </section>
+            <!--==============Skills================-->
+            <section class="skills section" id="skills">
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="subtitle">Mis Skills</h2>
+                        <p class="skills__text">Algunas Herramientas con la que he trabajado</p>
+                        <!--------------Primer Skill-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                        </div>
+                        <!----------------------------------------->
+                        <!--------------Segunda Skill-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                        </div>
+                        <!----------------------------------------->
+                        <!--------------Tercera Skill-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                        </div>
+                        <!----------------------------------------->
+                        <!--------------Cuarta Skill-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-mobile-alt skills__icon'></i>
+                                <span class="skills__name">Swift</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                            <div class="skills__bar skills__swf"></div>
+                        </div>
+                        <!----------------------------------------->
+                        <!----------------------------------------->
+                        <!--------------Quinta Skill-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-android skills__icon'></i>
+                                <span class="skills__name">Android</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                            <div class="skills__bar skills__and"></div>
+                        </div>
+                        <!----------------------------------------->
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="mis_proyectos"><h2 class="subtitle">Algunos de mis proyectos Escolares:</h2></div>
+            <!--Repositorios-->
+            <section  class="repositorios">
+                <a href="https://github.com/Terhesita/appFoodMovil" target="_blank" class="respositorio__cta">App de Comida(Movil)</a>
+                <a href="https://github.com/Terhesita/appMusicaIOS" target="_blank" class="respositorio__cta">App de Música(Movil)</a>
+                <a href="https://github.com/Terhesita/appAerolinea" target="_blank" class="respositorio__cta">Aerolínea (Pagina Web)</a>
+            </section>
+            <section class="videos" id="proyectos">
+
+                <iframe class="one__video"  src="https://www.youtube.com/embed/H3jPTjMsy8s" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen></iframe>
+
+                <iframe class="one__video"  src="https://www.youtube.com/embed/c9JQqKI0y9E" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+
+                <iframe class="one__video" src="https://www.youtube.com/embed/IoJ2upXEVPk" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </section>
+            
+        </main>
+
+        <!---parte inferior de la pagina-->
+        <footer class="footer">
+            <div class="container footer__grid">
+             <!--Iconos y enlaces redes sociales-->
+
+                <section class="footer__contact">
+                    <h3 class="footer__title">Me puedes encontrar en:</h3>
+                    <div class="footer__icons">
+                        <span class="footer__container-icons">
+                            <a class="fab uil-whatsapp-alt footer__icon" style="color:#369E15" href="https://api.whatsapp.com/send?phone=528712619382" target="_blank"></a>
+                        </span >
+                        <span class="footer__container-icons">
+                            <a class="fab uil-envelope footer__icon" style="color: #FF0000;" href="mailto:teresita_onofre@hotmail.com?subject=Interesados%20En%20Contactarte" target="_blank"></a>
+                        </span>
+                        <span class="footer__container-icons">
+                            <a class="fab uil-youtube footer__icon" style="color:#FF0000" href="https://www.youtube.com/watch?v=H3jPTjMsy8s&list=PLO8twT-irhwOhlm10srZulVHUqPOYXafm" target="_blank"></a>
+                        </span>
+                        <span class="footer__container-icons">
+                            <a class="fab uil-facebook footer__icon" style="color: #2222F1" href="https://www.facebook.com/terhe.onofre" target="_blank"></a>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </footer> 
+
+       <!--Hacer que el menu se despliegue a distinta seccion-->
+       <script src="js/jquery-3.6.0.js"></script> 
+       <script src="js/menu.js"></script>
+    </body>
+</html>
